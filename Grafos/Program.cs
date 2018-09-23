@@ -116,7 +116,7 @@ namespace Grafos
             Console.WriteLine(G.EhArvore());
             Console.WriteLine(G.EhConexo());
             var list = G.OrdenacaoTopologica();
-            string temp = "";
+            string temp = "a";
             foreach (var l in list)
             {
                 switch (l)
