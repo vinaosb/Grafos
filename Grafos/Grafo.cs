@@ -155,7 +155,7 @@ namespace Grafos
 
         public int Grau (int vid)
         {
-            return Adjacentes(vid).sCount;
+            return Adjacentes(vid).Count;
         }
 
         public bool EhRegular()
